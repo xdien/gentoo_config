@@ -1,0 +1,5 @@
+cross-arm-unknown-linux-uclibceabi/binutils arm ~arm -amd64 -~amd64
+cross-arm-unknown-linux-uclibceabi/gcc arm ~arm -amd64 -~amd64
+cross-arm-unknown-linux-uclibceabi/linux-headers arm ~arm -amd64 -~amd64
+cross-arm-unknown-linux-uclibceabi/uclibc arm ~arm -amd64 -~amd64
+cross-arm-unknown-linux-uclibceabi/gdb arm ~arm -amd64 -~amd64

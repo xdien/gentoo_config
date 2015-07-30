@@ -1,0 +1,78 @@
+# required by =x11-base/xorg-server-1.16.3 (argument)
+# /usr/portage/profiles/package.mask:
+# Michał Górny <mgorny@gentoo.org> (08 Dec 2014)
+# Complete redesign, masked for testing.
+=x11-base/xorg-server-1.16.3
+# required by dev-qt/qtdbus-5.4.0
+# required by dev-qt/qtnetwork-5.4.0[-connman,networkmanager]
+# required by dev-qt/qtdeclarative-5.4.0
+# required by dev-qt/qtwayland-5.4.0[qml]
+# required by dev-qt/qtwayland (argument)
+# /usr/portage/profiles/package.mask:
+# Davide Pesavento <pesa@gentoo.org> (11 Sep 2014)
+# Mask Qt 5.3.x for wider testing to ensure that it does
+# not break or conflict with other packages (bug #454132)
+=dev-qt/qtcore-5.4.0
+# required by dev-qt/qtdeclarative-5.4.0[widgets]
+# required by dev-qt/qtwayland-5.4.0[qml]
+# required by dev-qt/qtwayland (argument)
+# /usr/portage/profiles/package.mask:
+# Davide Pesavento <pesa@gentoo.org> (11 Sep 2014)
+# Mask Qt 5.3.x for wider testing to ensure that it does
+# not break or conflict with other packages (bug #454132)
+=dev-qt/qtwidgets-5.4.0
+# required by dev-qt/qtdeclarative-5.4.0
+# required by dev-qt/qtwayland-5.4.0[qml]
+# required by dev-qt/qtwayland (argument)
+# /usr/portage/profiles/package.mask:
+# Davide Pesavento <pesa@gentoo.org> (11 Sep 2014)
+# Mask Qt 5.3.x for wider testing to ensure that it does
+# not break or conflict with other packages (bug #454132)
+=dev-qt/qtnetwork-5.4.0
+# required by dev-qt/qtnetwork-5.4.0[-connman,networkmanager]
+# required by dev-qt/qtdeclarative-5.4.0
+# required by dev-qt/qtwayland-5.4.0[qml]
+# required by dev-qt/qtwayland (argument)
+# /usr/portage/profiles/package.mask:
+# Davide Pesavento <pesa@gentoo.org> (11 Sep 2014)
+# Mask Qt 5.3.x for wider testing to ensure that it does
+# not break or conflict with other packages (bug #454132)
+=dev-qt/qtdbus-5.4.0
+# required by dev-qt/qtwayland (argument)
+# /usr/portage/profiles/package.mask:
+# Davide Pesavento <pesa@gentoo.org> (11 Sep 2014)
+# Mask Qt 5.3.x for wider testing to ensure that it does
+# not break or conflict with other packages (bug #454132)
+=dev-qt/qtwayland-5.4.0
+# required by dev-qt/qtwayland-5.4.0[qml]
+# required by dev-qt/qtwayland (argument)
+# /usr/portage/profiles/package.mask:
+# Davide Pesavento <pesa@gentoo.org> (11 Sep 2014)
+# Mask Qt 5.3.x for wider testing to ensure that it does
+# not break or conflict with other packages (bug #454132)
+=dev-qt/qtdeclarative-5.4.0
+# required by dev-qt/qtwidgets-5.4.0
+# required by dev-qt/qtdeclarative-5.4.0[widgets]
+# required by dev-qt/qtwayland-5.4.0[qml]
+# required by dev-qt/qtwayland (argument)
+# /usr/portage/profiles/package.mask:
+# Davide Pesavento <pesa@gentoo.org> (11 Sep 2014)
+# Mask Qt 5.3.x for wider testing to ensure that it does
+# not break or conflict with other packages (bug #454132)
+=dev-qt/qtgui-5.4.0
+# required by dev-qt/qtdeclarative-5.4.0[xml]
+# required by dev-qt/qtwayland-5.4.0[qml]
+# required by dev-qt/qtwayland (argument)
+# /usr/portage/profiles/package.mask:
+# Davide Pesavento <pesa@gentoo.org> (11 Sep 2014)
+# Mask Qt 5.3.x for wider testing to ensure that it does
+# not break or conflict with other packages (bug #454132)
+=dev-qt/qtxmlpatterns-5.4.0
+# required by dev-qt/qtdeclarative-5.4.0[-test]
+# required by dev-qt/qtwayland-5.4.0[qml]
+# required by dev-qt/qtwayland (argument)
+# /usr/portage/profiles/package.mask:
+# Davide Pesavento <pesa@gentoo.org> (11 Sep 2014)
+# Mask Qt 5.3.x for wider testing to ensure that it does
+# not break or conflict with other packages (bug #454132)
+=dev-qt/qttest-5.4.0

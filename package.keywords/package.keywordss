@@ -1,0 +1,29 @@
+x11-libs/libaccounts-qt  x11-libs/libaccounts-qt[qt5]
+sys-kernel/dracut
+
+# required by =sci-electronics/kicad-999999999 (argument)
+=sci-electronics/kicad-999999999 **
+# required by kde-apps/kwrite (argument)
+=kde-apps/kwrite-9999 **
+# required by kde-apps/kwrite-9999::kde
+# required by kde-apps/kwrite (argument)
+# move dev-libs/extra-cmake-modules kde-frameworks/extra-cmake-modules
+=kde-frameworks/extra-cmake-modules-9999 **
+# required by =kde-apps/dolphin-9999 (argument)
+=kde-apps/dolphin-9999 **
+# required by kde-apps/dolphin-9999::kde
+# required by =kde-apps/dolphin-9999 (argument)
+=kde-apps/libkonq-9999 **
+# required by kde-apps/dolphin-9999::kde
+# required by =kde-apps/dolphin-9999 (argument)
+=kde-apps/kfind-9999 **
+# required by @enlightenment-core-9999 (argument)
+=media-libs/elementary-9999 **
+# required by @enlightenment-core-9999 (argument)
+=x11-wm/enlightenment-9999 **
+# required by @enlightenment-core-9999 (argument)
+=media-plugins/emotion_generic_players-9999 **
+# required by @enlightenment-core-9999 (argument)
+=dev-libs/efl-9999 **
+# required by @enlightenment-core-9999 (argument)
+=media-plugins/evas_generic_loaders-9999 **

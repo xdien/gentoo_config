@@ -1,0 +1,44 @@
+# These settings were set by the catalyst build script that automatically
+# built this stage.
+# Please consult /usr/share/portage/config/make.conf.example for a more
+# detailed example.
+CFLAGS="-march=native -pipe -O3 -msse4.2 -msse4.1"
+CXXFLAGS="${CFLAGS}"
+# WARNING: Changing your CHOST is not something that should be done lightly.
+# Please consult http://www.gentoo.org/doc/en/change-chost.xml before changing.
+CHOST="x86_64-pc-linux-gnu"
+# These are the USE flags that were used in addition to what is provided by the
+# profile used for building.
+USE="ppp acp ogg laptop dmx -symlink Broadcom Intel-SDP mp3 opengl \
+     -libproxy -gnome-shell theora introspection autoipd g3dvl xvmc \
+     binary hscolour X -xorg alsa networkmanager bluetooth -gnutls \
+     -cups uxa -extra systemd php multicore threaded threads \
+     modemmanager vala gles egl nokia vaapi directx vdpau tinfo xcomposite \
+     dlna -kde wayland bindist apache2 android autotools git \
+     cmake scsi mysql -lirc aacplus x265 qt4 qt3support llvm python \
+     wayland-compositor xwayland ffmpeg -libav"
+MAKEOPTS="-j5"
+CPU_FLAGS_X86="avx avx2 mmx mmxext popcnt sse sse2 sse3 sse4_1 sse4_2 ssse3"
+#FEATURES="distcc"
+VIDEO_CARDS="i915 i965 intel"
+INPUT_DEVICES="joystick evdev synaptics mouse keyboard"
+ACCEPT_KEYWORDS="~amd64"
+source /var/lib/layman/make.conf
+PYTHON_TARGETS="python2_7 python3_3"
+PYTHON_SINGLE_TARGET="python2_7"
+GRUB_PLATFORMS="pc efi-64"
+PORTDIR=/usr/portage
+LINGUAS="en vn"
+#PORTDIR_OVERLAY="/home/xdien/Templates/overlay"
+QEMU_USER_TARGETS="x86_64 arm"
+QEMU_SOFTMMU_TARGETS="arm x86_64 i386"
+LDFLAGS="$LDFLAGS -lm"
+ENLIGHTENMENT_MODULES="appmenu backlight battery bluez4 clock conf-applications conf-bindings conf-dialogs conf-display conf-interaction conf-intl \
+conf-menus conf-paths conf-performance conf-shelves conf-theme conf-window-manipulation conf-window-remembers connman contact cpufreq \
+everything fileman fileman-opinfo gadman ibox ibar lokker mixer msgbus music-control notification pager pager16 quickaccess start syscan systray \
+tasks  syscon teamwork temperature tiling winlist wizard "
+RUBY_TARGETS="ruby22 ruby21"
+#FETCHCOMMANDWRAPPER_OPTIONS=""
+#FETCHCOMMAND="/usr/local/bin/aria2-fetch fetch \"\${DISTDIR}\" \${FILE} \${URI}"
+#RESUMECOMMAND="/usr/local/bin/aria2-fetch resume \"\${DISTDIR}\" \${FILE} \${URI}"
+ABI_X86="32 64"

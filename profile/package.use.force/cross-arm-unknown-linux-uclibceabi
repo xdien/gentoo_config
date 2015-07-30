@@ -1,0 +1,5 @@
+cross-arm-unknown-linux-uclibceabi/binutils -multilib
+cross-arm-unknown-linux-uclibceabi/gcc -multilib
+cross-arm-unknown-linux-uclibceabi/linux-headers -multilib
+cross-arm-unknown-linux-uclibceabi/uclibc -multilib
+cross-arm-unknown-linux-uclibceabi/gdb -multilib

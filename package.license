@@ -1,0 +1,38 @@
+# required by google-chrome (argument)
+#>=www-client/google-chrome-32.0.1700.72_beta1:beta google-chrome
+# required by sun-jdk (argument)
+>=dev-java/sun-jdk-1.6.0.45 Oracle-BCLA-JavaSE
+# required by broadcom-sta (argument)
+>=net-wireless/broadcom-sta-6.30.223.141 Broadcom
+# required by b43-firmware (argument)
+>=sys-firmware/b43-firmware-5.100.138 Broadcom
+# required by google-chrome (argument)
+>=www-client/google-chrome-32.0.1700.107_p1 google-chrome
+# required by google-talkplugin (argument)
+=www-plugins/google-talkplugin-5.1.4.0 Google-TOS
+# required by skype (argument)
+>=net-im/skype-4.2.0.13 skype-4.0.0.7-copyright
+# required by adobe-flash (argument)
+>=www-plugins/adobe-flash-11.2.202.346 AdobeFlash-11.x
+# required by virtual/jdk-1.8.0
+# required by virtual/jre-1.8.0
+# required by @selected
+# required by @world (argument)
+>=dev-java/oracle-jdk-bin-1.8.0.0 Oracle-BCLA-JavaSE
+# required by =dev-java/oracle-jdk-bin-1.7.0.55 (argument)
+>=dev-java/oracle-jdk-bin-1.7.0.55:1.7 Oracle-BCLA-JavaSE
+# required by teamviewer (argument)
+>=net-misc/teamviewer-9.0.30203 TeamViewer
+# required by icc (argument)
+>=dev-lang/icc-15.0.0.090 Intel-SDP
+# required by dev-lang/icc-15.0.0.090
+# required by icc (argument)
+>=dev-libs/intel-common-15.0.0.090-r1 Intel-SDP
+# required by eagle (argument)
+>=sci-electronics/eagle-7.2.0 cadsoft
+# required by app-emulation/virtualbox-4.3.20-r1[extensions]
+# required by @selected
+# required by @world (argument)
+>=app-emulation/virtualbox-extpack-oracle-4.3.20.96996 PUEL
+# required by sublime-text (argument)
+>=app-editors/sublime-text-3083 Sublime

@@ -1,0 +1,5 @@
+cross-arm-unknown-linux-uclibceabi/binutils cross-arm-unknown-linux-uclibceabi/binutils.conf
+cross-arm-unknown-linux-uclibceabi/gcc cross-arm-unknown-linux-uclibceabi/gcc.conf
+cross-arm-unknown-linux-uclibceabi/linux-headers cross-arm-unknown-linux-uclibceabi/linux-headers.conf
+cross-arm-unknown-linux-uclibceabi/uclibc cross-arm-unknown-linux-uclibceabi/uclibc.conf
+cross-arm-unknown-linux-uclibceabi/gdb cross-arm-unknown-linux-uclibceabi/gdb.conf

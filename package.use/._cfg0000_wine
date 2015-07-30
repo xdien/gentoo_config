@@ -1,0 +1,7 @@
+app-emulation/wine staging
+# required by sys-devel/prelink-20130503::gentoo
+# required by app-emulation/wine-1.7.46::gentoo[prelink]
+# required by net-misc/teamviewer-10.0.41499-r1::gentoo[system-wine]
+# required by @selected
+# required by @world (argument)
+>=dev-libs/elfutils-0.163 static-libs

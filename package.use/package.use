@@ -1,0 +1,226 @@
+#sys-apps/dbus systemd
+#dev-qt/qtgui egl harfbuzz evdev -ibus
+media-libs/mesa gbm llvm gles -vaapi
+media-plugins/evas_generic_loaders svg -pdf
+www-client/links -X
+# required by x11-drivers/xf86-video-intel-2.99.907-r1
+# required by x11-base/xorg-drivers-1.15[video_cards_intel]
+# required by xorg-drivers (argument)
+>=x11-base/xorg-server-1.15.0 xorg
+net-misc/networkmanager avahi connection-sharing resolvconf -openrc
+# required by net-print/cups-1.7.0-r1
+# required by www-client/google-chrome-32.0.1700.72_beta1
+# required by google-chrome (argument)
+>=app-text/ghostscript-gpl-9.10 cups
+dev-libs/botan -bindist
+net-misc/curl metalink
+dev-python/pyside declarative designer multimedia script scripttools sql
+sys-libs/zlib minizip
+media-libs/gd fontconfig
+app-admin/gkrellm gnutls hddtemp lm_sensors
+dev-lang/python sqlite
+# required by x11-misc/shutter-0.90.1
+# required by shutter (argument)
+>=media-gfx/imagemagick-6.8.8.1 perl
+>=x11-misc/shutter-0.90.1 drawing
+media-plugins/alsa-plugins pulseaudio jack libsamplerate
+media-sound/pulseaudio realtime gnome qt4 zeroconf
+x11-wm/enlightenment pulseaudio xcomposite wl-desktop-shell wayland
+dev-libs/efl pixman harfbuzz ibus glib pulseaudio audio gles -xcb wayland -sdl -opengl sound physics X drm
+www-client/uget aria2
+sys-auth/pambase gnome-keyring pam_ssh mktemp
+dev-libs/libpeas gjs
+x11-wm/metacity xcomposite
+sys-libs/ncurses tinfo -gpm
+dev-java/sun-jdk nsplugin jce
+#dev-qt/qtsql mysql
+sys-auth/consolekit systemd-units
+dev-lang/php gd mysql xmlrpc libmysqlclient soap sockets cgi curl zip apache2 mysqli xmlreader xmlwriter postgres odbc sqlite fpm
+media-libs/harfbuzz icu
+app-misc/tracker -xine gstreamer -ffmpeg
+gnome-base/gnome-extra-apps -games
+dev-libs/openssl -bindist
+net-misc/openssh -bindist
+#dev-qt/qt-creator valgrind madde bazaar qnx perforce
+net-misc/connman tools openvpn
+dev-ruby/activerecord postgres
+media-libs/elementary -sdl wayland
+app-office/libreoffice java cups mysql -postgres
+net-misc/ntp caps parse-clocks snmp zeroconf samba openntpd
+net-dns/avahi mdnsresponder-compat
+x11-libs/libxcb xkb
+dev-libs/libpcre pcre16
+#dev-qt/qtcore icu
+#dev-qt/qtscript scripttools
+#dev-qt/qtwebkit libxml2 multimedia qml widgets
+>=dev-ruby/json-1.8.1 ruby_targets_ruby21
+>=dev-ruby/rake-10.3.1 ruby_targets_ruby21
+>=dev-ruby/racc-1.4.11 ruby_targets_ruby21
+# required by dev-lang/ruby-2.1.1-r1[rdoc]
+>=dev-ruby/rdoc-4.0.1-r2 ruby_targets_ruby21
+# required by dev-lang/ruby-2.1.1-r1
+# required by dev-ruby/rake-10.3.1[ruby_targets_ruby21]
+# required by dev-ruby/rake-compiler-0.9.2-r1[ruby_targets_ruby19]
+# required by dev-ruby/nokogiri-1.6.0[ruby_targets_ruby19]
+# required by net-analyzer/metasploit-4.9.2-r2[-test,ruby_targets_ruby19]
+# required by @selected
+# required by @world (argument)
+>=dev-ruby/rubygems-2.0.14-r1 ruby_targets_ruby21
+media-libs/opencv qt4 xine v4l ieee1394 java
+media-video/ffmpeg sse4 cpudetection ieee1394 libv4l v4l rtmp encode -aacplus
+media-libs/xine-lib samba v4l xinerama -directfb
+dev-qt/qtsql mysql odbc qt3support postgres
+net-misc/tor nat-pmp bufferevents transparent-proxy upnp -web
+dev-qt/qt-mobility connectivity multimedia sensors qml gallery
+app-emulation/libvirt virt-network virtualbox avahi audit fuse lvm
+net-analyzer/wireshark qt4 geoip
+net-misc/openvpn down-root examples iproute2 passwordsave pkcs11
+app-emulation/virtualbox qt4 extensions pulseaudio
+virtual/postgresql -kerberos
+dev-db/postgresql-base -kerberos
+dev-libs/libltdl-abi_x86_32
+sys-devel/distcc avahi crossdev
+media-sound/rhythmbox mtp upnp-av zeitgeist -lirc
+media-plugins/grilo-plugins upnp-av
+media-libs/libmikmod oss
+app-admin/testdisk ntfs
+sci-electronics/kicad -python sexpr nanometr github debug
+dev-libs/boost -context python
+# required by sci-electronics/kicad-20130518
+# required by kicad (argument)
+=dev-libs/boost-1.55.0-r2 python
+sci-electronics/pcb gcode m4lib-png motif tk toporouter xrender
+media-video/vlc postproc avcodec dvd mpeg mad bidi xv svga gnutls stream vlm httpd cdda vcd cdio lua qt5 kde -ffmpeg -qt4
+virtual/ffmpeg -encode
+sys-apps/util-linux -udev
+net-fs/nfs-utils nfsv4 nfsv41
+dev-db/mariadb extraengine
+x11-libs/vte python
+dev-libs/keybinder python
+x11-libs/wxGTK webkit gnome
+net-misc/aria2 xmlrpc metalink scripts tcmalloc bittorrent -adns -libuv
+app-portage/layman bazaar mercurial
+app-doc/doxygen qt4
+# required by dev-lang/ruby-2.0.0_p598[rdoc]
+# required by dev-ruby/racc-1.4.12[ruby_targets_ruby20]
+>=dev-ruby/rdoc-4.1.2 ruby_targets_ruby19 ruby_targets_ruby20
+# required by dev-lang/ruby-2.0.0_p598
+# required by dev-ruby/rdoc-4.1.2[ruby_targets_ruby20]
+# required by dev-lang/ruby-2.2.0[rdoc]
+# required by dev-ruby/racc-1.4.12[ruby_targets_ruby22]
+>=dev-ruby/rake-10.4.2 ruby_targets_ruby20 ruby_targets_ruby19
+# required by dev-ruby/rdoc-4.1.2[ruby_targets_ruby20]
+# required by dev-lang/ruby-2.2.0[rdoc]
+# required by dev-ruby/racc-1.4.12[ruby_targets_ruby22]
+>=dev-ruby/json-1.8.1-r1 ruby_targets_ruby20 ruby_targets_ruby19
+# required by dev-ruby/rdoc-4.1.2[ruby_targets_ruby20]
+# required by dev-lang/ruby-2.2.0[rdoc]
+# required by dev-ruby/json-1.8.1-r1[ruby_targets_ruby22]
+# required by dev-lang/ruby-2.0.0_p598
+# required by dev-ruby/rake-10.4.2[ruby_targets_ruby20]
+# required by dev-lang/ruby-2.1.5
+# required by dev-ruby/locale-2.1.0-r2[ruby_targets_ruby21]
+# required by @selected
+# required by @world (argument)
+>=dev-ruby/racc-1.4.12 ruby_targets_ruby19 ruby_targets_ruby20
+>=dev-ruby/rubygems-2.4.5 ruby_targets_ruby20 ruby_targets_ruby19
+net-libs/webkit-gtk gles2 -opengl
+kde-base/kdebase-meta -minimal
+dev-libs/libdbusmenu qt4
+dev-qt/qtcore qt3support icu
+dev-libs/libdbusmenu-qt qt4 qt5
+dev-qt/qtgui evdev ibus eglfs accessibility -kms -gles2
+x11-base/xorg-server xvfb
+dev-qt/qtwebkit webp qml widgets xslt libxml2 printsupport -multimedia
+net-im/pidgin zephyr groupwise sasl idn gadu meanwhile silc
+dev-libs/libxml2 -icu
+gnome-base/gvfs fuse
+x11-libs/dee-qt qt5
+unity-base/unity-settings-daemon input_devices_wacom
+x11-misc/webaccounts-browser-extension -chromium
+dev-libs/folks eds
+sys-boot/plymouth gdm
+x11-libs/libdrm libkms
+dev-qt/qtwayland wayland-compositor qml
+# required by media-libs/phonon-vlc-0.8.2
+=media-libs/phonon-4.8.3 qt5
+=media-libs/phonon-vlc-0.8.2 qt5
+=sys-auth/polkit-qt-0.112.0-r1 qt5
+# required by kde-frameworks/knotifications-5.6.0[dbus]
+# required by kde-frameworks/khtml-5.6.0
+# required by @kde-frameworks-5.6 (argument)
+=dev-libs/libdbusmenu-qt-0.9.3_pre20140619 qt5
+# required by dev-qt/qtwebkit-5.4.0[multimedia]
+# required by kde-frameworks/kdewebkit-5.6.0
+# required by @kde-frameworks-5.6 (argument)
+>=dev-qt/qtmultimedia-5.4.0 widgets
+kde-base/kactivities minimal
+dev-qt/qtopengl -gles2
+dev-qt/qtwidgets -gles2
+# required by kde-plasma/plasma-workspace-9999::kde
+# required by kde-plasma/khotkeys-9999::kde
+# required by kde-plasma/kmenuedit-9999::kde[hotkeys]
+# required by @kde-plasma-live
+# required by @kde-next-live (argument)
+>=dev-qt/qtquickcontrols-5.4.0 widgets
+# required by kde-plasma/kinfocenter-9999::kde[gles]
+# required by @kde-plasma-live
+# required by @kde-next-live (argument)
+>=dev-qt/qtgui-5.4.0 gles2
+=app-text/poppler-0.30.0 qt5
+>=dev-qt/qtmultimedia-5.4.0 qml
+x11-misc/sddm -upower
+app-crypt/qca qt5
+=kde-apps/okular-5.9999 -crypt
+kde-apps/okteta -crypt
+>=dev-qt/qtscript-5.4.0 scripttools
+kde-frameworks/plasma opengl
+kde-plasma/plasma-workspace gps qalculate -prison
+# required by dev-qt/qtopengl-5.4.0
+# required by @selected
+# required by @world (argument)
+>=dev-qt/qtgui-5.4.0 -gles2
+media-libs/cogl gles2
+# required by dev-lang/ruby-2.0.0_p598
+# required by dev-ruby/racc-1.4.12[ruby_targets_ruby20]
+# required by dev-ruby/rdoc-4.1.2-r1[ruby_targets_ruby19]
+# required by dev-lang/ruby-1.9.3_p551[rdoc]
+# required by dev-ruby/rake-10.4.2[ruby_targets_ruby19]
+# required by dev-lang/ruby-2.1.5
+# required by dev-ruby/rubygems-2.4.5[ruby_targets_ruby21]
+>=virtual/rubygems-10 ruby_targets_ruby20 ruby_targets_ruby19
+dev-db/mysql-workbench gnome-keyring
+dev-libs/cyrus-sasl postgres authdaemond sqlite
+sci-libs/gdal postgres sqlite authdaemond -pdf
+# required by media-libs/cogl-1.18.2-r1[gles2]
+# required by x11-wm/mutter-3.14.3
+# required by gnome-base/gnome-shell-3.14.3
+# required by @selected
+# required by @world (argument)
+>=media-libs/mesa-10.4.3 gles2
+kde-frameworks/knotifyconfig -phonon
+media-libs/phonon -qt5 -vlc aqua gstreamer
+media-libs/phonon-gstreamer qt5
+# move app-admin/eselect-php app-eselect/eselect-php
+app-eselect/eselect-php fpm
+# required by kde-plasma/kfilemetadata-5.6.0::kde[pdf]
+# required by kde-plasma/baloo-5.6.0::kde
+# required by kde-plasma/plasma-workspace-5.2.0-r2::kde
+# required by kde-plasma/plasma-desktop-5.2.0::kde
+# required by @selected
+# required by @world (argument)
+>=app-text/poppler-0.31.0 qt5
+media-libs/libmediaart -gtk -qt4 qt5
+media-libs/grilo playlist
+kde-plasma/baloo minimal
+=kde-base/baloo-4.14.3 minimal
+dev-qt/qtprintsupport cups
+x11-libs/libva -egl opengl
+dev-qt/qt-creator perforce valgrind clearcase doc -qbs
+# required by dev-qt/qtnetwork-5.4.1::gentoo[ssl]
+# required by dev-qt/qt-creator-3.4.0::gentoo
+# required by @selected
+# required by @world (argument)
+dev-qt/qtnetwork -ssl
+# required by media-libs/phonon-gstreamer-4.8.2::gentoo
+>=media-libs/phonon-4.8.3-r1 qt5
