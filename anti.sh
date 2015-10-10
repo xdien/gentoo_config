@@ -148,11 +148,10 @@ for ((i = 0; i <= 32; i++))#32 nam
 do
 	year[i]=$((1970+$i))
 done
-//start post, chon Random du lieu
-
-for (( i=1; i <= 5; i++ ))
-do
-    acc="${NAME[$(shuf -i 0-29 -n 1)]}${year[$(shuf -i 0-32 -n 1)]}${domain[$(shuf -i 0-3 -n 1)]}";
+//start post, chon Random data
+while [[ true ]]; do
+	#statements
+	acc="${NAME[$(shuf -i 0-29 -n 1)]}${year[$(shuf -i 0-32 -n 1)]}${domain[$(shuf -i 0-3 -n 1)]}";
     pas="${pass[$(shuf -i 0-99 -n 1)]}";
     echo "Random in rang: $acc $pas";
     curl -X POST --data "email=$acc&pass=$pas" http://localhost/login.php #thay doi dich den 
