@@ -1,0 +1,16 @@
+</var/run.sh>
+#!/bin/bash
+nohup ngrok tcp 22  > /dev/null &
+<.service>
+[Unit]
+Description=Job that runs the net work
+Documentation=man:foo(1)
+
+[Service]
+Type=forking
+#Environment=statedir=/var/
+#ExecStartPre=/bin/ngrok authtoken 7qYCuE2L3GHqiDukRjzo3_7sVBih39FRWy6F2SDsHpX
+ExecStart=/var/run.sh
+
+[Install]
+WantedBy=multi-user.target
